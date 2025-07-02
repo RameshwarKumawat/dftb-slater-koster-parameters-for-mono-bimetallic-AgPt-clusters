@@ -1,0 +1,1 @@
+# dftb-slater-koster-parameters-for-mono-bimetallic-AgPt-clusters
