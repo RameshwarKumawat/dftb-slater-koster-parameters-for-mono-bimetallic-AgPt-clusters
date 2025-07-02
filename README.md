@@ -1,6 +1,6 @@
 # DFTB Mono- and Bimetallic AgPt Cluster Slater-Koster Files
 
-This repository contains ground state (GS) and excited state (ES) Slater-Koster parameter files in DFTB+ format for monometallic and bimetallic silver-gold (Ag-Pt) clusters.
+This repository contains ground state (GS) and excited state (ES) Slater-Koster parameter files in DFTB+ format for monometallic and bimetallic silver-platinum (Ag-Pt) clusters.
 
 ## 📁 File Structure:
 - **GSSK/** – Ground state Slater-Koster files
@@ -20,17 +20,17 @@ The GS and ES Slater-Koster parameter files, containing the final parameters for
 The `GSSK` folder contains the Slater-Koster parameter files for ground state calculations:
 
 - `Ag-Ag-GS-SK.skf`
-- `Au-Au-GS-SK.skf`
-- `Ag-Au-GS-SK.skf`
-- `Au-Ag-GS-SK.skf`
+- `Pt-Pt-GS-SK.skf`
+- `Ag-Pt-GS-SK.skf`
+- `Pt-Ag-GS-SK.skf`
 
 ### Excited State Slater-Koster Files
-The `ESSK` folder contains the Slater-Koster parameter files for excited state calculations:
+The `ESSK` folder contains the Slater-Koster parameter files for excited-state calculations:
 
 - `Ag-Ag-ES-SK.skf`
-- `Au-Au-ES-SK.skf`
-- `Ag-Au-ES-SK.skf`
-- `Au-Ag-ES-SK.skf`
+- `Pt-Pt-ES-SK.skf`
+- `Ag-Pt-ES-SK.skf`
+- `Pt-Ag-ES-SK.skf`
 
 ### Example Input Files
 Example input files for running ground state and excited state calculations are included in the `INPUT_files` folder.
@@ -41,19 +41,19 @@ Example input files for running ground state and excited state calculations are 
 ## 📖 Citation
 If you use these files in your research, please cite:
 
-**Kumawat and Schatz, Efficient Modeling of Structural, Electronic, and Optical Properties of Silver and Gold Metal Nanoclusters and Alloys Using Optimized SCC-DFTB Parameters, *Journal of Physical Chemistry C*, 2025**  
-[![DOI](https://zenodo.org/badge/DOI/10.1021/acs.jpcc.4c08100.svg)](https://doi.org/10.1021/acs.jpcc.4c08100)
+**Kumawat and Schatz, Excited-State and Ground-State Slater–Koster Parameters for Quantum Plasmonic Studies of Silver and Platinum Nanoparticles and Alloys via SCC-DFTB Method, *XXX*, 2025**  
+[![DOI](00000000000)
 
 ### BibTeX:
 ```bibtex
 @article{kumawat2025efficientoptical,
   author = {Kumawat, Rameshwar and Schatz, George},
-  title = {Efficient Modeling of Structural, Electronic, and Optical Properties of Silver and Gold Metal Nanoclusters and Alloys Using Optimized SCC-DFTB Parameters},
-  journal = {Journal of Physical Chemistry C},
+  title = {Excited-State and Ground-State Slater–Koster Parameters for Quantum Plasmonic Studies of Silver and Platinum Nanoparticles and Alloys via SCC-DFTB Method},
+  journal = {XX},
   year = {2025},
-  volume = {129},
-  number = {2},
-  pages = {1348–1361},
-  doi = {10.1021/acs.jpcc.4c08100}
-  publisher={ACS Publications}
+  volume = {X},
+  number = {X},
+  pages = {XXXX–XXXX},
+  doi = {000000000000000}
+  publisher={XX}
 }
